@@ -20,6 +20,7 @@ namespace WebAppMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Nome"] = "Enzo";
             return View();
         }
 
